@@ -1,2 +1,3 @@
-/* CSS da p·gina*/
-.slide img {max-height: 350px; }
+/* CSS da p√°gina*/
+.slide{margin-bottom:10px;}
+.slide img {max-height: 350px;width:100%;}
