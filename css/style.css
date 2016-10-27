@@ -19,4 +19,4 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
 .conteudo{}
 .col-md-8, .col-md-4{background-color: #fff;}
 
-.HeaderIcons a:hover svg{fill:#4682B4;}
+.HeaderIcons img{width: 30px;}
