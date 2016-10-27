@@ -3,13 +3,16 @@
 .slide img {max-height: 350px;width:100%;}
 .menu {border:1px solid #A9A9A9;width:100%}
 
-#ico_news{width: 65px;height:65px;}
 #ico_news{
+	width: 65px;height:65px;float: left;
 	background-image: url(https://hugohno.github.io/img/news.png);
 	background-repeat: no-repeat;
+	margin: 5px;
 }
 #ico_news:hover{
 	background-image: url(https://hugohno.github.io/img/news_back.png);
 	transition: background-image 2s;
 	background-repeat: no-repeat;
 }
+body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
+.conteudo{background-color: #fff;}
