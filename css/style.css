@@ -34,4 +34,6 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
 .copyright a{color:#000;}
 .HeaderIcons img{width: 30px;}
 .active{background-color: #F0FFF0;font-weight: bold;}
-.TitlePage{background-color: #fefefe}
+.TitlePage{background-color: #fefefe;border: 1px solid #ccc;box-shadow: 0px 0px 10px;}
+.Text-metod{padding: 10px 0px 0px 5px;color: #696969;line-height}
+.box-title{padding: 10px 0px 10px 0px;}
