@@ -46,4 +46,5 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
 .box-img img{max-width:300px;margin:15px 0px 15px 10px;}
 .dropdown{display: block;}
 #navbar{display: none;}
+.copyright{padding: 0px;}
 }
