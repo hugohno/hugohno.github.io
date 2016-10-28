@@ -15,8 +15,21 @@
 	transition: background-image 2s;
 	background-repeat: no-repeat;
 }
+#ico_dep{
+	width: 65px;height:65px;float: left;
+	background-image: url(https://hugohno.github.io/img/hello.png);
+	background-repeat: no-repeat;
+	margin: 5px;
+}
+#ico_dep:hover{
+	background-image: url(https://hugohno.github.io/img/hello_back.png);
+	transition: background-image 2s;
+	background-repeat: no-repeat;
+}
+
 body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
 .conteudo{}
 .col-md-8, .col-md-4{background-color: #fff;}
-.copyright{background-color: #ccc;}
+.copyright{background-color: #F8F8FF;font-size: 12px;padding: 5px;}
+.copyright a{color:#000;}
 .HeaderIcons img{width: 30px;}
