@@ -37,3 +37,13 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);}
 .TitlePage{background-color: #fefefe;border: 1px solid #ccc;box-shadow: 0px 0px 10px;}
 .Text-metod{padding: 10px 0px 0px 5px;color: #696969;line-height}
 .box-title{padding: 10px 0px 10px 0px;}
+.box-img{text-align:center}
+.box-img img{max-width:550px;margin:15px 0px 15px 10px;}
+.dropdown{display: none}
+
+/*Quebra para o Mobile*/
+@media only screen and (max-width: 480px){
+.box-img img{max-width:300px;margin:15px 0px 15px 10px;}
+.dropdown{display: block;}
+#navbar{display: none;}
+}
