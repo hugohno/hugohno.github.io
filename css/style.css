@@ -36,7 +36,7 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);font-famil
 .HeaderIcons img{width: 30px;}
 .active{background-color: #F0FFF0;font-weight: bold;}
 .TitlePage{background-color: #fefefe;border: 1px solid #ccc;box-shadow: 0px 0px 10px;}
-.Text-metod{padding: 10px 0px 0px 5px;color: #696969;line-height}
+.Texts-pages{padding: 10px 0px 0px 5px;color: #696969;line-height:2;}
 .box-title{padding: 10px 0px 10px 0px;}
 .box-img{text-align:center}
 .box-img img{max-width:550px;margin:15px 0px 15px 10px;}
