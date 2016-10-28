@@ -11,8 +11,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="form-elements/flat/formoid-flat-yellow.css" type="text/css">
-	<script type="text/javascript" src="form-elements/flat/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -75,15 +73,17 @@
 			  <tr>
 			    <td width="120" align="right" class="form-control">Nome:</td>
 			    <td><input type="text" name="NomeDe" class="InputText" size="25" maxlength="50"></td>
-			  </tr>   
+			  </tr>
+			  <tr><br></tr>   
 			  <tr>
 			    <td align="right" class="form-control">E-mail:</td>
 			    <td><input type="text" name="EmailDe" class="InputText" size="25" maxlength="50"></td>
-			  </tr>       
+			  </tr>
+			  <tr><br></tr>       
 			  <tr>
 			    <td align="right" valign="top" class="form-control">Comentários:</td>
 			    <td><textarea wrap="virtual" cols="18" rows="4" name="Comentarios" class="InputText" style="height:50px;width:250px"></textarea></td>
-			  </tr>   
+			  </tr>  
 			  <tr>
 			    <td colspan="2" align="center"><button type="submit" class="btn btn-default" onclick='javascript:ValidaForm()'>Submit</button><input type="button" name="Enviar" value=' Enviar ' class="InputButton" onclick='javascript:ValidaForm()'></td>
 			  </tr></form>
@@ -160,7 +160,6 @@ function AvisoErroCampo_SelectBox(theField,s){
   return false;
 }
 </script>
-  <script type="text/javascript" src="form-elements/flat/formoid-flat-yellow.js"></script>
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
