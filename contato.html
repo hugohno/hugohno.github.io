@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Learn and Laugh - Metodologia</title>
+    <title>Learn and Laugh - Contato</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 	  <div class="col-md-8"><div class="container menu">
       <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <img src="img/menu-button.jpg" alt="icone menu">
+            <img src="img/menu-button.png" alt="icone menu">
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -52,65 +52,44 @@
           </div><!--/.nav-collapse -->
         </div></div>
     </div>
+      <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 TitlePage"><div class="box-title"><h1>Contato</h1></div></div>
+    <div class="col-md-2"></div>
+  </div>
         <div class="row">
         	<div class="col-md-2"></div>
         	<div class="col-md-8">
+        		<div class="Texts-pages">
+        			<h3>Enter em contato conosco, tire sua dúvidas, estamos a disposição.</h3>
         		<table align="center" width="90%" cellspacing="1" cellpadding="5" class="EstTabPedido">
 			      <form name="form" method="POST" action="EnviaMail.asp">
 			        <input type="hidden" name="NomePara" value='Nome para onde vai a msg'>
-			        <input type="hidden" name="EmailPara" value='email@emaildestinatario.com.br'>
+			        <input type="hidden" name="EmailPara" value='hugo-gta@hotmail.com'>
 			        <input type="hidden" name="Assunto" value='Assunto da mensagem'>
-			        <input type="hidden" name="URLRetorno" value='<HTMLoja>Obrigado.htm'>
+			        <input type="hidden" name="URLRetorno" value='Obrigado.htm'>
 			        <input type="hidden" name="OrdemCampos" value='NomeDe,EmailDe,Sexo,Cargo,Interesses,Comentarios'>
 			  <tr>
-			    <td align="center" colspan="2" class="EstTabPedidoTit">Exemplo de formulário</td>
+			    <td align="center" colspan="2" class="EstTabPedidoTit">Formulário para Contato</td>
 			  </tr>   
 			  <tr>
-			    <td width="120" align="right" class="EstNomeCampo">Nome:</td>
+			    <td width="120" align="right" class="form-control">Nome:</td>
 			    <td><input type="text" name="NomeDe" class="InputText" size="25" maxlength="50"></td>
 			  </tr>   
 			  <tr>
-			    <td align="right" class="EstNomeCampo">E-mail:</td>
+			    <td align="right" class="form-control">E-mail:</td>
 			    <td><input type="text" name="EmailDe" class="InputText" size="25" maxlength="50"></td>
-			  </tr>   
+			  </tr>       
 			  <tr>
-			    <td align="right" class="EstNomeCampo">Sexo:</td>
-			    <td>
-			      <input type="radio" name="Sexo" value="Masculino"> Masculino<br>
-			      <input type="radio" name="Sexo" value="Feminino"> Feminino
-			    </td>
-			  </tr>   
-			  <tr>
-			    <td align="right" class="EstNomeCampo">Cargo:</td>
-			    <td>
-			      <select name="Cargo" class="InputText" size="1" style="width:150px">
-			        <option value="" selected>Escolha...</option>
-			        <option value="Diretor">Diretor</option>
-			        <option value="Gerente">Gerente</option>
-			        <option value="Analista">Analista</option>
-			        <option value="Estagiário">Estagiário</option>
-			      </select>
-			    </td>
-			  </tr>   
-			  <tr>
-			    <td align="right" valign="top" class="EstNomeCampo">Interesses:</td>
-			    <td>	
-			      <input type="checkbox" name="Interesses" value="Esporte"> Esporte<br>
-			      <input type="checkbox" name="Interesses" value="Saúde"> Saúde<br>
-			      <input type="checkbox" name="Interesses" value="Negócios"> Negócios<br>
-			      <input type="checkbox" name="Interesses" value="Notícias"> Notícias<br>
-			      <input type="checkbox" name="Interesses" value="Viagem"> Viagem<br>
-			    </td>
-			  </tr>   
-			  <tr>
-			    <td align="right" valign="top" class="EstNomeCampo">Comentários:</td>
+			    <td align="right" valign="top" class="form-control">Comentários:</td>
 			    <td><textarea wrap="virtual" cols="18" rows="4" name="Comentarios" class="InputText" style="height:50px;width:250px"></textarea></td>
 			  </tr>   
 			  <tr>
-			    <td colspan="2" align="center"><input type="button" name="Enviar" value=' Enviar ' class="InputButton" onclick='javascript:ValidaForm()'></td>
+			    <td colspan="2" align="center"><button type="submit" class="btn btn-default" onclick='javascript:ValidaForm()'>Submit</button><input type="button" name="Enviar" value=' Enviar ' class="InputButton" onclick='javascript:ValidaForm()'></td>
 			  </tr></form>
 			</table>
         	</div>
+        </div>
         	<div class="col-md-2"></div>
         </div>
   <div class="row">
@@ -135,22 +114,6 @@ function ValidaForm(){
  }
 
 
- // Verifica se foi escolhido Sexo
- var checkedButton=false;
- for (i=0;i<2;i++) if(document.form.Sexo[i].checked) checkedButton=true;
- if (!checkedButton) {
-   alert("Escolha um dos sexos.");
-   document.form.Sexo[0].focus();
-   return false;
- }
-
-
- //Cargo
- if(isEmpty(document.form.Cargo.options[document.form.Cargo.selectedIndex].value)){
-       AvisoErroCampo_SelectBox(document.form.Cargo,'Informe seu cargo.');
-    return false;
- }
-
  // Verifica se foi escolhido Interesses
  var checkedButton=false;
  for (i=0;i<5;i++) if(document.form.Interesses[i].checked) checkedButton=true;
@@ -158,12 +121,6 @@ function ValidaForm(){
    alert("Escolha pelo menos um dos Interesses.");
    document.form.Interesses[0].focus();
    return false;
- }
-
- //Comentários
- if(isEmpty(document.form.Comentarios.value)){
-    AvisoErroCampo(document.form.Comentarios,'Comentário não pode ser branco.');
-    return false;
  }
 
  document.form.submit();
