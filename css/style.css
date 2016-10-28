@@ -41,6 +41,7 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);font-famil
 .box-img{text-align:center}
 .box-img img{max-width:550px;margin:15px 0px 15px 10px;}
 .dropdown{display: none}
+.map{margin-bottom:10px;}
 
 /*Quebra para o Mobile*/
 @media only screen and (max-width: 480px){
@@ -48,4 +49,5 @@ body{background-image: url(https://hugohno.github.io/img/Lapices.jpg);font-famil
 .dropdown{display: block;}
 #navbar{display: none;}
 .copyright{padding: 0px;}
+.map iframe{max-width: 350px;}
 }

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Learn and Laugh - Metodologia</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="form-elements/flat/formoid-flat-yellow.css" type="text/css">
+	<script type="text/javascript" src="form-elements/flat/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="conteudo">
+	<div class="row" id="logo">
+		<div class="col-md-2"></div>
+		<div class="col-md-8"><a href="https://hugohno.github.io/"><img src="img/logo_6.png" alt="Logo"></a></div>
+		<div class="col-md-2"></div>
+	</div>
+	<div class="row">
+	  <div class="col-md-2"></div>
+	  <div class="col-md-8"><div class="container menu">
+      <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <img src="img/menu-button.jpg" alt="icone menu">
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="https://hugohno.github.io/">Home</a></li>
+                <li class="active"><a href="/metodologia.html">Nossa Metodologia</a></li>
+                <li><a href="/atendimento.html">Locais de Atendimento</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+          </ul>
+        </div>   
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="https://hugohno.github.io/">Home</a></li>
+              <li class="active"><a href="/metodologia.html">Nossa Metodologia</a></li>
+              <li><a href="/atendimento.html">Locais de Atendimento</a></li>
+              <li><a href="/contato.html">Contato</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div></div>
+        <div class="row">
+        	<div class="col-md-2"></div>
+        	<div class="col-md-8">
+        		<form enctype="multipart/form-data" class="formoid-flat-yellow" style="background-color:#FFFFFF;font-size:14px;font-family:'Lato', sans-serif;color:#666666;max-width:480px;min-width:150px" method="post" novalidate="novalidate"><div class="title"><h2>Form elements</h2></div>
+					<div class="element-input"><label class="title">Input text with icon</label><input class="large" type="text" name="input"></div>
+					<div class="element-select"><label class="title">Select</label><div class="large"><span><select name="select" style="display: none;">
+
+						<option value="select 1">select 1</option>
+						<option value="select 2">select 2</option>
+						<option value="select 3">select 3</option></select><div class="btn-group select"><i class="dropdown-arrow dropdown-arrow-inverse"></i><button class="btn dropdown-toggle clearfix btn-huge btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">select 1</span>&nbsp;</button><ul class="dropdown-menu dropdown-inverse" role="menu" style="max-height: 1018.5px; overflow-y: auto; min-height: 96px;"><li rel="0" class="selected"><a tabindex="-1" href="#" class=""><span class="pull-left">select 1</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">select 2</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">select 3</span></a></li></ul><div class="caret"></div></div><i></i></span></div></div>
+					<div class="element-checkbox"><label class="title">Checkboxes</label>		<div class="column column3"><label><input type="checkbox" name="checkbox[]" value="Checkbox 1"><span>Checkbox 1</span></label></div><span class="clearfix"></span>
+						<div class="column column3"><label><input type="checkbox" name="checkbox[]" value="Checkbox 2"><span>Checkbox 2</span></label></div><span class="clearfix"></span>
+						<div class="column column3"><label><input type="checkbox" name="checkbox[]" value="checkbox 3"><span>checkbox 3</span></label></div><span class="clearfix"></span>
+				</div>
+					<div class="element-radio"><label class="title">Radio Buttons</label>		<div class="column column3"><label><input type="radio" name="radio" value="Radio Button 1"><span>Radio Button 1</span></label></div><span class="clearfix"></span>
+						<div class="column column3"><label><input type="radio" name="radio" value="Radio Button 2"><span>Radio Button 2</span></label></div><span class="clearfix"></span>
+						<div class="column column3"><label><input type="radio" name="radio" value="Radio Button 3"><span>Radio Button 3</span></label></div><span class="clearfix"></span>
+				</div>
+					<div class="element-number"><label class="title">Number</label><input class="medium" type="text" min="0" max="100" name="number" value=""></div>
+
+					<div class="element-file"><label class="title">File</label><label class="large"><div class="button">Choose File</div><input type="file" class="file_input" name="file"><div class="file_text">No file selected</div></label></div>
+
+					<div class="element-name"><label class="title">Name</label><span class="nameFirst"><input type="text" size="8" name="name[first]"><label class="subtitle">First</label></span><span class="nameLast"><input type="text" size="14" name="name[last]"><label class="subtitle">Last</label></span></div>
+
+					<div class="element-email"><label class="title">Email</label><input class="large" type="email" name="email" value=""></div>
+
+					<div class="element-phone"><label class="title">Phone</label><input class="large" type="tel" pattern="[+]?[\.\s\-\(\)\*\#0-9]{3,}" maxlength="24" name="phone" value=""></div>
+					<div class="submit"><input type="submit" value="Submit"></div>
+				</form>
+        	</div>
+        	<div class="col-md-2"></div>
+        </div>
+  <div class="row">
+    <div class="col-sm-2 col-md-2"></div>
+    <div class="col-sm-8 col-md-8 copyright"><div>Copyright © 2016 <a href="https://hugohno.github.io/" title="Learn &amp; Laugh"><span>Learn &amp; Laugh</span></a>. Powered by</div></div>
+    <div class="col-sm-2 col-md-2"></div>
+  </div>
+  </div>
+  <script type="text/javascript" src="form-elements/flat/formoid-flat-yellow.js"></script>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
