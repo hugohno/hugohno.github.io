@@ -60,10 +60,10 @@
         	<div class="col-md-8">
         		<div class="Texts-pages">
         			<h3>Enter em contato conosco, tire sua dúvidas, estamos a disposição.</h3>
-        		<table align="center" width="90%" cellspacing="1" cellpadding="5" class="EstTabPedido">
-			      <form name="form" method="POST" action="EnviaMail.asp">
+        		<table align="center" width="30%" cellspacing="1" cellpadding="5" class="EstTabPedido">
+			      <form name="form" method="POST" action="mailto:hugo-gta@hotmail.com" enctype="text/plain">
 			        <input type="hidden" name="NomePara" value='Nome para onde vai a msg'>
-			        <input type="hidden" name="EmailPara" value='hugo-gta@hotmail.com'>
+			        <input type="hidden" name="EmailPara" value=''>
 			        <input type="hidden" name="Assunto" value='Assunto da mensagem'>
 			        <input type="hidden" name="URLRetorno" value='Obrigado.htm'>
 			        <input type="hidden" name="OrdemCampos" value='NomeDe,EmailDe,Sexo,Cargo,Interesses,Comentarios'>
@@ -71,21 +71,21 @@
 			    <td align="center" colspan="2" class="EstTabPedidoTit">Formulário para Contato</td>
 			  </tr>   
 			  <tr>
-			    <td width="120" align="right" class="form-control">Nome:</td>
+			    <td width="120" align="center" class="form-control">Nome:</td>
 			    <td><input type="text" name="NomeDe" class="InputText" size="25" maxlength="50"></td>
 			  </tr>
 			  <tr><td><br></td></tr>   
 			  <tr>
-			    <td align="right" class="form-control">E-mail:</td>
+			    <td align="center" class="form-control">E-mail:</td>
 			    <td><input type="text" name="EmailDe" class="InputText" size="25" maxlength="50"></td>
 			  </tr>
 			  <tr><td><br></td></tr>       
 			  <tr>
-			    <td align="right" valign="top" class="form-control">Comentários:</td>
+			    <td align="center" valign="top" class="form-control">Comentários:</td>
 			    <td><textarea wrap="virtual" cols="18" rows="4" name="Comentarios" class="InputText" style="height:50px;width:250px"></textarea></td>
 			  </tr>  
 			  <tr>
-			    <td colspan="2" align="center"><button type="submit" class="btn btn-default" onclick='javascript:ValidaForm()'>Submit</button><input type="button" name="Enviar" value=' Enviar ' class="InputButton" onclick='javascript:ValidaForm()'></td>
+			    <td colspan="2" align="center"><button type="submit" class="btn btn-default" onclick='javascript:ValidaForm()'>Submit</button><input type="submit" value="Enviar formulário"></td>
 			  </tr></form>
 			</table>
         	</div>
